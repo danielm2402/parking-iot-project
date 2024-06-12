@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model_path = 'last.pt'
 model = YOLO(model_path)
 
-img = cv2.imread('C:/Users/danie/Desktop/dev/python/parking-detection-example/pk_451.jpg')
+img = cv2.imread('pk_451.jpg')
 results = model(img)
 print(results)
 
