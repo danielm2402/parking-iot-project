@@ -1,0 +1,5 @@
+path: C:/Users/danie/Desktop/dev/python/parking-detection
+train: images/train
+val: images/test
+nc: 3
+names: ['parking_space_not_full', 'parking_space_full', 'motorbike']
